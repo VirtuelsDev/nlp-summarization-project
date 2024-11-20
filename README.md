@@ -59,55 +59,15 @@ cd evaluation-resume
 
 ---
 
-## Utilisation
-
-### Étape 1 : Prétraitement des données
-Nettoyez et divisez le jeu de données en ensembles d'entraînement, validation et test. Exécutez le script suivant :
-```bash
-python preprocess.py
-```
-
-### Étape 2 : Génération de résumés
-1. **Résumé extractif** :
-   ```bash
-   python summarize_extractive.py
-   ```
-2. **Résumé abstrait** :
-   ```bash
-   python summarize_abstractive.py
-   ```
-
-### Étape 3 : Évaluation des performances
-Calculez les scores ROUGE et BLEU en exécutant :
-```bash
-python evaluate.py
-```
-
-### Étape 4 : Visualisation des résultats
-Générez des graphiques des scores :
-```bash
-python plot_results.py
-```
-
----
-
-## Résultats
-### Exemple de scores pour un article :
-- **ROUGE-1** : 0.4407
-- **ROUGE-2** : 0.1552
-- **BLEU** : 0.1106
-
----
-
 ## Captures d'écran
 1. **Résultats ROUGE pour l'Article 1** :
-   ![Capture ROUGE Article 1](captures/Capture_ROUGE_Article_1.png)
+   ![Capture ROUGE Article 1](data/Capture_ROUGE_Article_1.png)
 
 2. **Résultats BLEU pour l'Article 2** :
-   ![Capture BLEU Article 2](captures/Capture_BLEU_Article_2.png)
+   ![Capture BLEU Article 2](data/Capture_BLEU_Article_2.png)
 
 3. **Résultats ROUGE et BLEU pour l'Article 5** :
-   ![Capture ROUGE et BLEU Article 5](captures/Capture_ROUGE_BLEU_Article_5.png)
+   ![Capture ROUGE et BLEU Article 5](data/Capture_ROUGE_BLEU_Article_5.png)
 
 ---
 
@@ -117,8 +77,6 @@ Les contributions sont les bienvenues ! Veuillez soumettre une *pull request* ou
 ---
 
 ## Licence
-Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
+Ce projet est sous licence OpenSource. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ---
-
-Avec ce README, les utilisateurs sauront comment configurer, utiliser et explorer votre projet.
