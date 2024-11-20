@@ -1,4 +1,4 @@
-# Évaluation des Résumés : Approches Extractive et Abstraite
+# README.md
 
 Ce projet vise à comparer les performances des résumés extractifs et abstraits générés à l'aide de modèles basés sur des architectures modernes, en utilisant les métriques standard telles que ROUGE et BLEU.
 
